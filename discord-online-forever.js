@@ -17,10 +17,6 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function hasChild(obj){
-    return !!Object.keys(obj).length;
-}
-
 /**
  * Discord API
  */
